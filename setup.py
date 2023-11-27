@@ -60,7 +60,7 @@ install_requires = [
     # transitive dependencies:
     #   urllib3: MIT
     #   aiohttp: Apache 2.0
-    "opensearch-py[async]==2.3.2",
+    "opensearch-py[async]==2.4.1",
     # License: BSD
     "psutil==5.8.0",
     # License: MIT
@@ -98,6 +98,8 @@ install_requires = [
     #   jmespath: MIT
     #   s3transfer: Apache 2.0
     "boto3==1.28.62",
+    # Licence: BSD-3-Clause
+    "zstandard==0.22.0",
 ]
 
 tests_require = [
